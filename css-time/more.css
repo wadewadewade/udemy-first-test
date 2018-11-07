@@ -1,0 +1,41 @@
+/* Star */
+/* Targets everything on the page */
+
+* {
+    border: 1px solid lightgrey
+}
+
+/* Descendant selector */
+/* Takes two or more selectors, chained together - first then second */
+/* Can be a class within a selector and layered as many times as needed */
+/* e.g. ul li .fun */
+/* So this one will select every a tag within an li tag */
+li a {
+    color: red;
+}
+
+/* Adjacent selector
+One selector that comes *after* another
+On the same line, not indented */
+
+h4 + ul {
+    border: 4px solid red;
+}
+
+/* Attribute selector
+Select everything based on one attribute e.g. every image from a specific
+source or every link to google or all checkboxes or all password fields
+Type selector[specific attribute]*/
+
+a[href="https://www.google.com"] {
+    background: blue;
+}
+
+/* nth of type
+Every nth of an element 
+Will only select that specific number e.g. every group of li, number 3
+although you can choose (even) */
+
+li:nth-of-type(3) {
+    background: rgba(100,90,80,0.5);
+}

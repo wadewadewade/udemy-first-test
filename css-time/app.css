@@ -1,0 +1,27 @@
+h1 {
+    color:rgba( 11, 50, 150, 0.8);
+    /* border: purple;
+    border-width: 5px;
+    border-style: double; */
+    border: rgba(11, 11, 11, 0.8) 2px solid;
+}
+
+li {
+    color: rgba( 11, 50, 150, 0.4);
+}
+
+h4 {
+    background: rgb(255,100,80);
+    color: rgba( 11, 50, 150, 0.1);
+}
+
+div {
+    background: rgba(42, 66, 124, 0.589);
+}
+body {
+    background: pink;
+    /* background: url(https://www.babybedding.com/images/fabric/navy-woodgrain-fabric_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+

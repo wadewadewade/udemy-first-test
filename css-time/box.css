@@ -1,0 +1,30 @@
+/* 
+THE BOX MODEL
+============
+4 parts of each box:
+
+Content
+Padding
+Border
+Margin
+
+Between border and text, there is _padding_. That's the space on the inside of the border.
+The Margin is on the other side of the border. They use that to add spacing between elements */
+
+p {
+/* Content - Width and Height */
+width: 60%;
+
+/* Border */
+border: 2px solid blue;
+
+/* Padding */
+/* padding: 10px; sets on all four sides */
+padding-left: 40px;
+
+/* Margin */
+/* margin-top: 100px; */
+/* margin: 20px 15px 50px 10px; top right bottom left */
+/* margin: 0 auto 0 auto; or even */
+margin: 0 auto;
+}
