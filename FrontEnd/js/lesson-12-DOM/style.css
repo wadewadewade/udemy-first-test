@@ -1,0 +1,14 @@
+img {
+    max-width: 40%;
+}
+
+.bigimage {
+    border: 2px solid black;
+    max-width: 100%
+}
+
+.big {
+    font-size: 6rem;
+    color: orange;
+    border: 5px solid grey;
+}

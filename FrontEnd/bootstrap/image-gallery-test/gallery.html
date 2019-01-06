@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Image Gallery</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="gallery.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Navbar start -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                
+                <!-- Left side of the nav bar -->
+                <div class="navbar-header">
+                    <!-- This bit is the hamburger -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                 <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+                </div>
+                
+                <!-- Main content of the nav bar -->
+                <!-- This would usually be a <div> but because we are adding items as <li> then instead it's a <ul>. Good convention. -->
+                <!-- Although there is a <div>, that is just for the collapsing bit. Note that in the ID property there is no # included -->
+                <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav"> 
+                    <li><a href="#">About</a></li>                
+                    <li><a href="#">Contact</a></li>                
+                </ul>
+                
+                <!-- Right side of the nav bar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+                        
+            </div>
+        </nav>
+        <!-- Navbar end -->
+
+        <div class="container">
+
+            <div class="jumbotron">
+                <h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+                <p>A bunch of images I took of dogs</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1951/31575701868_a2044c93bf_z.jpg">
+                    </div>      
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1932/45450914361_e816845635_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1941/31575666848_021ebdb04a_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1958/44726137374_75a47b6351_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1958/43633849920_fddec4c15f_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1911/44726241324_48f87c4699_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1973/31575714718_1b83ac71ec_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1972/31575711448_bdd02469b0_z.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://farm2.staticflickr.com/1958/30510271337_dde50cfb16_z.jpg">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

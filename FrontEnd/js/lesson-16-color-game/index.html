@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="style.css">
+<title>Color Game</title>
+</head>
+<body>
+<!-- Header -->
+<div class="header" id="header-div">    
+    <h1 class="mb-0">The Great 
+    <br>
+    <span id="targetDisplay">RGB</span> 
+    <br>
+    Guessing Game</h1>
+</div>
+
+<!-- New game, message etc -->
+<div id="stripe">
+    <button id="reset">New Colors</button>
+    <span id="message">&nbsp;</span>
+    <button class="mode">Easy</button>
+    <button class="mode selectedDifficulty">Hard</button>
+</div>
+
+<!-- The game -->
+<div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+
+
+<script src="color-guess.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

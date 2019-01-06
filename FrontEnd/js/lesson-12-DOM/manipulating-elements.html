@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="style.css">
+<title>DOM Demo</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-info">This is my DOM demo</h1>
+    <p>I think dogs are <em>really</em> cool.</p>
+    <p><a href="https://www.google.com">Google</a></p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Cactus</li>
+        <li>Camera</li>
+    </ul>
+    <img id="killer" src="https://images.unsplash.com/photo-1495096848005-d77907109d78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=385438b9dcee88b32db8169293dd8103&auto=format&fit=crop&w=634&q=80" alt="">
+    <img src="https://images.unsplash.com/photo-1532022160153-7735cd049992?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d468bf1abc2f8151990d0096bf8b08c2&auto=format&fit=crop&w=1190&q=80" alt="">
+</div>
+<script src="manip.js"></script>
+<script type="text/javascript">
+    var img = document.querySelectorAll("img")[0];
+
+    img.addEventListener("click",function() {
+        alert("Boop");
+    })
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
