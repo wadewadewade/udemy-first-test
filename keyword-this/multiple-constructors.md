@@ -26,12 +26,20 @@ So much duplication! Let's use call or apply...
     }
 
     function Motorbike(make, model, year){
+        // using call
         Car.call(this, make, model, year);
         this.numWheels = 2;
     }
     OR
     function Motorbike(make, model, year){
-        Car.call(this, [make, model, year]);
+        // using apply
+        Car.apply(this, [make, model, year]);
+        this.numWheels = 2;
+    }
+    *OR EVEN BETTER*
+    function Motorbike(make, model, year){
+        // using apply and *arguments*
+        Car.apply(this, arguments);
         this.numWheels = 2;
     }
 
